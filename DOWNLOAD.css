@@ -134,9 +134,32 @@ h5{
 
 
 /* Baron's Section */
-#Baron{
- height: 40vh;
+#demo {
+ height: fit-content;
  color:white;
-  background-color: #164c63;
+ display: flex;
+ flex-direction: row;
+ align-items: center;
+ justify-content: center;
+ row-gap: 100px;
+}
+
+.demo_item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 10vh;
+  padding-top: 5vh;
+  padding-right: 5vw;
+  padding-left: 5vw;
+}
+
+.demo_item h2 {
+  color: black;
+}
+
+.demo_item img {
+  max-height: 60vh;
 }
 
