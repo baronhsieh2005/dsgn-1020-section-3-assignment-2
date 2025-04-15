@@ -10,10 +10,35 @@ height:450vh;
 
 
 body{
-  padding-left: 5vw;
-  padding-right: 5vw;
   color:rgb(0, 0, 0);
-  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#Topwrapper {
+  background-color: black;
+  height: calc(100vh);
+  width: 100vw;
+}
+
+#Topwrapper h1 {
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: normal;
+  font-style: normal;
+  color: white;
+  font-size: 3vw; 
+  text-align: center;
+  padding-top: 200px;
+}
+
+#Topwrapper button {
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: normal;
+  font-style: normal;
+  color: black;
+  font-size: 3vw; 
+  text-align: center;
 }
 
 
